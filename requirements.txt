@@ -1,0 +1,9 @@
+ultralytics
+mediapipe
+opencv-python
+numpy
+pandas
+webrtcvad
+sounddevice
+scipy
+torch
