@@ -111,7 +111,7 @@ def run_video_detection():
                     alert_time = time.time()
 
         if time.time() - alert_time < 3:
-            cv2.putText(frame, f"⚠️ {alert_message}", (30, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
+            cv2.putText(frame, f"{alert_message}", (30, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
 
         cv2.imshow("Cheating Detection System", frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
